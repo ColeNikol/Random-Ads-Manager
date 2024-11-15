@@ -55,7 +55,7 @@ Target links, image URLs, descriptions and ads start date are stored in ads.json
 When you place the code on your site for an ad format you call that /js file
 popupAd.js adds a pop up ad in the right bottom corner. Pop-up shows and closses in intervals so you'll have to edit the times
 
-You can modify the existing ad formats to suit your needs or buy me a coffee to do it for you or create another ad format
+You can modify the existing ad formats to suit your needs, buy me a coffee to do it for you or create another ad format
 
 logout.php - saves the settings and logs out clearing the session
 
@@ -72,4 +72,4 @@ Random Ads Manager ver. 1.1 by ColeN AKA ColeNikol made for the NonCon Team and 
 
 Licenced under MIT licence, you can do almost whatever you want as long as you include the original copyright 
 and license notice in any copy of the software/source. Have to keep the Attribution links or maybe
-Buy me a coffee to see the next project or want me to change and create something unique just for you
+Buy me a coffee to see the next project or if want me to change and create something unique just for you

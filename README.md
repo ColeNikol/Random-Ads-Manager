@@ -6,16 +6,20 @@ Made to easily manage and randomly display responsive SEO friendly image ads in 
 you can place anywhere you want on your site
 
 
-What Random Ads Manager do and how to use it:
+INSTALLATION:
+1. On your website server create a folder named "ads"
+2. Upload all the files from here
 
-- Login in to manager (hard coded Admin/Pass pair) - Have to edit Index.php
+
+USAGE:
+
+- Login in to manager (hard coded Admin/Pass pair) - Have to edit validate.php to change defaults
   and change the default admin/pass login credentials into something only you will know
   (if forgot them will have to edit the Index.php file to remind yourself
-- Once you're logged in into Random Ads Manager Admin.php:
+- Once you're logged in into Random Ads Manager admin.php:
   
     
   ADD A NEW AD
-  (USE OF ABSOLUTE PATHS IS SUGGESTED to avoid any problems!)
   
 - Add a new ad by adding Target URL - Your affiliate link, a product, service or link of your choise
 - Add URL of the image to be shown in the ad.
@@ -34,10 +38,12 @@ All ads added are displayed in a table like list where can see:
 - Days left till ad expires and delete itself
 - Delete button - to delete the ad before expires
 
-Instruction how to add the AD FORMATS into your site
+
+Instructions how to add the AD FORMATS into your site opens in a modal and test the ads from there
 
 1. Choose the ad format (Click on the blue buttons with rough icons) showing number of images/links to be shown
 2. A modal will pop up with instructions and code to COPY/PASTE in your website where you want the ad to appear
+3. If having trouble showing ads on Wordpress follow the provided instructions
 
 
 HOW it works
@@ -53,9 +59,10 @@ Target links, image URLs, descriptions and ads start date are stored in ads.json
 
 [ad format].js javascript files randomly picks and displays responsive image ads depending of the ad format chosen.
 When you place the code on your site for an ad format you call that /js file
+  - USE OF DEFAULT /ads/ or ABSOLUTE PATHS IS SUGGESTED (http://yoursite.com/ads/) to avoid any problems!
 popupAd.js adds a pop up ad in the right bottom corner. Pop-up shows and closses in intervals so you'll have to edit the times
 
-You can modify the existing ad formats to suit your needs, buy me a coffee to do it for you or create another ad format
+Can modify the existing ad formats to suit your needs, buy me a coffee to do it for you or create another ad format
 
 logout.php - saves the settings and logs out clearing the session
 

@@ -66,9 +66,9 @@ Technology used:
 - JSON
 - HTML
 - Some custom CSS and free W3CSS for the UI
-- 
+  
 
-Random Ads Manager ver. 1.1 by ColeN AKA ColeNikol made for the NonCon Team and nonconfirmed.com originally
+Random Ads Manager ver. 1.1 by ColeN AKA ColeNikol made for the NonCon Team and https://nonconfirmed.com originally
 
 Licenced under MIT licence, you can do almost whatever you want as long as you include the original copyright 
 and license notice in any copy of the software/source. Have to keep the Attribution links or maybe

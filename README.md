@@ -36,7 +36,7 @@ All ads added are displayed in a table like list where can see:
 - Ad description (used as image ALT tag) for SEO purposes
 - Date when ad is added
 - Days left till ad expires and delete itself
-- Delete button - to delete the ad before expires
+- Delete button - to delete an ad before expiratition date
 
 
 Instructions how to add the AD FORMATS into your site opens in a modal and test the ads from there
@@ -57,12 +57,15 @@ admin.php contains Manager panel to add/delete ads and instructions to copy and 
 
 Target links, image URLs, descriptions and ads start date are stored in ads.json file
 
-[ad format].js javascript files randomly picks and displays responsive image ads depending of the ad format chosen.
-When you place the code on your site for an ad format you call that /js file
+[ad format].js javascript files randomly picks and displays responsive image ads depending of the ad format chosen. SEO friendly,
+images have ALT tags and opened in new tab when clicked
+
   - USE OF DEFAULT /ads/ or ABSOLUTE PATHS IS SUGGESTED (http://yoursite.com/ads/) to avoid any problems!
+
+Several ad formats are provided. Will have to check the default paths and do minor fixes in styling to make it work for you
 popupAd.js adds a pop up ad in the right bottom corner. Pop-up shows and closses in intervals so you'll have to edit the times
 
-Can modify the existing ad formats to suit your needs, buy me a coffee to do it for you or create another ad format
+Can modify the existing ad formats to suit your needs, buy me a coffee to do it for you or create another ad format yourself
 
 logout.php - saves the settings and logs out clearing the session
 
@@ -75,8 +78,8 @@ Technology used:
 - Some custom CSS and free W3CSS for the UI
   
 
-Random Ads Manager ver. 1.1 by ColeN AKA ColeNikol made for the NonCon Team and https://nonconfirmed.com originally
+Random Ads Manager ver. 1.1 by ColeN AKA ColeNikol made for the NonCon Team and https://nonconfirmed.com
 
 Licenced under MIT licence, you can do almost whatever you want as long as you include the original copyright 
 and license notice in any copy of the software/source. Have to keep the Attribution links or maybe
-Buy me a coffee to see the next project or if want me to change and create something unique just for you
+Buy me a coffee to see the next project and if want me to change and create something unique just for you

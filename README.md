@@ -5,6 +5,10 @@ affiliate links, sell ad space and monetize your website
 Made to easily manage and randomly display responsive SEO friendly image ads in various ad formats 
 you can place anywhere you want on your site
 
+TESTING:
+Want to see it in action?
+Working demo for testing is available https://nonconfirmed.com/demo-ads/
+
 
 INSTALLATION:
 1. On your website server create a folder named "ads"

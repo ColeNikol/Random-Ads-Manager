@@ -36,10 +36,10 @@ USAGE:
 All ads added are displayed in a table like list where can see:
 
 - The target URL (with rel="NOFOLLOW NOOPENER" attributes for better SEO) that opens in a new tab
-- URL of the image used as AD
+- URL of the image used as clickable image AD
 - Ad description (used as image ALT tag) for SEO purposes
 - Date when ad is added
-- Days left till ad expires and delete itself
+- Days left till ad expires and stop showing
 - Delete button - to delete an ad before expiratition date
 
 
